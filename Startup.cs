@@ -24,7 +24,7 @@ namespace newapp
         {
             services.AddControllersWithViews();
 
-            services.AddEntityFrameworkNpgsql().AddDbContext<context>(opt =>
+            services.AddEntityFrameworkNpgsql().AddDbContext<Context>(opt =>
             opt.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
             // In production, the Angular files will be served from this directory
             services.AddSpaStaticFiles(configuration =>

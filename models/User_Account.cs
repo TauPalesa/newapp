@@ -16,7 +16,7 @@ namespace newapp.models
             public override string Email { get; set; }
             public override string PhoneNumber { get; set; }
             public string Password { get; set; }
-            public string role { get; set; }
+            public string Role { get; set; }
         }
     }
 

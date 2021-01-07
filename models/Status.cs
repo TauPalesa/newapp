@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace newapp.models
 {
-    public class status
+    public class Status
     {
 
         [Key]

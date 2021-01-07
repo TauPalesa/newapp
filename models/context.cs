@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace newapp.models
 {
-    public class context : IdentityDbContext<User_Account>
+    public class Context : IdentityDbContext<User_Account>
     {
-        public context(DbContextOptions<context> options) : base(options)
+        public Context(DbContextOptions<Context> options) : base(options)
         {
 
         }
